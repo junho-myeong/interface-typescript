@@ -1,15 +1,14 @@
 interface Iperson2 {
   name: string,
-  age?: number,
+  age?: number
 }
 
 interface Ikorean extends Iperson2 {
-  city: string
+  city: string,
 }
 
 const k: Ikorean = {
   name: 'junho',
-  age: 29,
-  city: 'seoul'
+  city: 'seoul',
+  age: 29
 }
-

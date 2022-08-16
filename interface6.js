@@ -1,6 +1,6 @@
 "use strict";
 const k = {
     name: 'junho',
-    age: 29,
-    city: 'seoul'
+    city: 'seoul',
+    age: 29
 };

@@ -1,20 +1,17 @@
 "use strict";
-function hello4(person) {
-    console.log(`안녕하세요 ${person.name} 입니다.`);
+function hello3(person) {
+    console.log(`안녕하세요 저는 ${person.name} 입니다.`);
 }
 const p31 = {
-    name: 'junho',
+    name: 'junho1',
     age: 29
 };
 const p32 = {
-    name: 'hee',
-    syster: ['soyeon', 'hayeon', 3]
+    name: 'junho2',
+    sisters: ['hee1', 'hee2']
 };
 const p33 = {
-    name: 'bok',
-    fater: p31,
-    moter: p32
+    name: 'junho3',
+    father: p31,
+    mother: p32
 };
-hello4(p31);
-hello4(p32);
-hello4(p33);
